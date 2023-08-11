@@ -1,0 +1,85 @@
+.navbar{
+	/*position: fixed;*/
+	background-color: black;
+	width: 100%;
+	height: 90px;
+}
+
+.navbar-brand{
+	margin-top: 15px;
+	width: 220px;
+	height: 130px;
+}
+
+.navbar-nav{
+	margin-left: 490px;
+}
+
+.nav-item{
+	margin-left: 30px;
+}
+
+.nav-link{
+	color: white;
+}
+
+body{
+	background-color: black;
+	overflow-x: hidden;
+}
+
+.btn{
+	border-radius: 30px;
+	color: #269afe;
+}
+
+.main{
+	padding-top: 150px;
+	padding-left: 50px;
+	color: white;
+	font-family: DM Sans,sans-serif;
+}
+
+h1{
+	
+    font-size: 40px;
+    font-weight: 600;
+}
+.token{
+	width: 600px; 
+	height: 400px;
+	margin-right:20px; 
+	margin-top: 0px;
+}
+hr{
+	border-top: 2px solid grey; 
+	margin-left: 150px; 
+	margin-right: 50px;
+}
+
+@media (max-width: 620px)
+{
+	.token{
+		width: 300px;
+		height: 200px;
+	}
+	hr{
+		display: none;
+	}
+	.main{
+		padding-top: 150px;
+		padding-left: 20px;
+		color: white;
+		font-family: DM Sans,sans-serif;
+		overflow-x: hidden;
+	}
+	body{
+		overflow-x: hidden;
+	}
+	.navbar-nav{
+		margin-left: 180px;
+	}
+	#navbarSupportedContent{
+		background-color: black;
+	}
+}
